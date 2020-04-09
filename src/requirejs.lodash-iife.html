@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- whether or not use core-js library depends on your browser environment -->
+        <!-- <script src="../node_modules/core-js-bundle/minified.js"></script> -->
+        <script src="../node_modules/requirejs/require.js"></script>
+        <script src="../node_modules/webpack4-lib/dist/webpack4-lib.umd.help.js"></script>
+        <script>
+            require.config({
+                baseUrl: '..',
+                paths: {
+                    // use whole lodash library
+                    lodash: 'node_modules/lodash/lodash',
+                    mockjs: 'node_modules/mockjs/dist/mock',
+                    webpack4Lib: 'node_modules/webpack4-lib/dist/webpack4-lib.umd',
+                },
+            });
+        </script>
+        <script>
+            require(['webpack4Lib'], function (webpack4Lib) {
+                webpack4Lib.method1();
+                webpack4Lib.method2();
+                webpack4Lib.method3();
+            });
+        </script>
+    </body>
+</html>

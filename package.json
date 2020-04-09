@@ -1,0 +1,29 @@
+{
+    "name": "webpack4-lib-use",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack.config.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.0",
+        "babel-loader": "^8.1.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "html-webpack-plugin": "^4.0.2",
+        "webpack": "^4.42.1",
+        "webpack-bundle-analyzer": "^3.6.1",
+        "webpack-cli": "^3.3.11",
+        "webpack4-lib": "0.0.13"
+    },
+    "dependencies": {
+        "lodash": "^4.17.15",
+        "lodash-amd": "^4.17.15",
+        "mockjs": "^1.1.0",
+        "requirejs": "^2.3.6"
+    }
+}
