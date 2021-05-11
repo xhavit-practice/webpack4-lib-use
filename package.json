@@ -21,7 +21,7 @@
         "webpack4-lib": "0.0.13"
     },
     "dependencies": {
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.21",
         "lodash-amd": "^4.17.15",
         "mockjs": "^1.1.0",
         "requirejs": "^2.3.6"
