@@ -17,7 +17,7 @@
         "html-webpack-plugin": "^4.0.2",
         "webpack": "^4.42.1",
         "webpack-bundle-analyzer": "^3.6.1",
-        "webpack-cli": "^3.3.11",
+        "webpack-cli": "^3.3.12",
         "webpack4-lib": "0.0.13"
     },
     "dependencies": {
